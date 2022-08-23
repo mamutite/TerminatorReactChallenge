@@ -1,0 +1,18 @@
+.image-groups__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+::-webkit-scrollbar {
+    width: 0.4vw;
+}
+
+::-webkit-scrollbar-track {
+    margin: 0.75vh 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(214, 214, 214, 0.75);
+    border-radius: 1rem;
+}

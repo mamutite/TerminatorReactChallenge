@@ -1,0 +1,11 @@
+.image-item__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 0 1vh 0;
+    img {
+        width: 12vw;
+        border-radius: 1rem;
+        object-fit: contain;
+    }
+}

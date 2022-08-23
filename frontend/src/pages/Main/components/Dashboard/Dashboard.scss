@@ -1,0 +1,35 @@
+.dashboard__container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.dashboard-main-content__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-heading-text {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.image-groups {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 4vh 0;
+}
